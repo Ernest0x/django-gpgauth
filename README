@@ -12,6 +12,8 @@ Only users whose PGP keys are trusted by the system may login.
 Prerequisites:
 --------------
 Django (of course): Tested with 1.2.1 and 1.2.3
+python-gnupg: Patched with my patches found on issues 13 and 15 
+              (see: http://code.google.com/p/python-gnupg/issues/)
 django-simple-captcha: To protect registration from bots
 
 License:  GPL-3.0. Read LICENSE for more info

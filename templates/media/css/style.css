@@ -1,0 +1,115 @@
+body
+{
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: Verdana, sans-serif;
+  background-color: white;
+}
+
+a:link { color: #00BF00 }
+a:visited { color: #005200 }
+a { text-decoration: none }
+
+img
+{
+  border: 0px;
+}
+
+h2
+{
+  text-align: center;
+}
+
+.textmiddle { vertical-align:middle; } 
+
+#header
+{
+  text-align: center;
+  height: 70px;
+  padding-top: 15px;
+}
+
+#site_actions
+{
+  float: left;
+  padding-left: 15px;
+}
+
+#menubar
+{
+  background-color: #CCFFCC;
+  height: 35px;
+  font-size: small;
+  border-top: 1px solid #00BF00;
+  border-bottom: 1px solid #00BF00;
+}
+
+#menubar a
+{
+  color: #00583D;
+  font-size: large;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#menubar a:hover
+{
+  color: #00BF00;
+}
+
+#login_actions
+{
+  float: right;
+}
+
+#content
+{
+  clear: both;
+  padding-top: 5px;
+}
+
+#menulist
+{
+  padding-left: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 7px;
+} 
+
+#menulist li
+{
+  padding-right: 15px;
+  display: inline;
+  list-style-type: none;
+}
+
+#pgp_msg
+{
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  width:35em;
+  background-color: #E8FFE8;
+  border: 1px dotted #00BF00;
+  padding: 10px;
+}
+
+#userinfo_table td
+{
+  text-align: center;
+  padding: 10px;
+  background-color: #FEF4F4;
+  border-top: 1px solid #FEC0C0;
+  border-bottom: 1px solid #FEC0C0;
+}
+
+#userinfo_table th
+{
+  background-color: #E8FFE8;
+  border-top: 1px solid #00BF00;
+  border-bottom: 1px solid #00BF00;
+  padding: 10px;
+}

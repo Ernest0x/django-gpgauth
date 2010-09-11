@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block title %}Welcome{% endblock %}
+
+{% block content %}
+      <h2>Welcome to django_gpgauth Demo Site!</h2>
+      <p>
+        <b>django_gpgauth</b> is a <b><i>django module</i></b> for user authentication through <b><i>PGP keys</i></b>.
+      </p>
+      {% if logged_in %}
+        <h2>Hello <a href="/userinfo/{{ user.id }}">{{ user.pgpkey.name }}</a>. You are now logged in!</h2>
+      {% endif %}
+{% endblock %} 

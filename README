@@ -1,0 +1,19 @@
+django-gpgauth is a django module that provides user authentication through PGP keys.
+
+
+How it works:
+-------------
+It registers users by their public PGP key (it accepts only single keys).
+It wraps django's authentication system by providing the user with a different password
+in each login attempt. This password is encrypted with user's public key and the user
+must decrypt the password with his equivalent private key to use it in the login prompt.
+Only users whose PGP keys are trusted by the system may login.
+
+Prerequisites:
+--------------
+Django (of course): Tested with 1.2.1 and 1.2.3
+django-simple-captcha: To protect registration from bots
+
+License:  GPL-3.0. Read LICENSE for more info
+
+Project site: http://github.com/Ernest0x/django-gpgauth
